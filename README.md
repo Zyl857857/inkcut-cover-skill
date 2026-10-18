@@ -20,6 +20,14 @@
 | ② | 构图优化版：适度调整尺度、间距、景深 | 优化构图与留白 |
 | ③ | 氛围变化版：同主题同人数，变化光线、色温、薄雾 | 变化光色情绪 |
 
+## 运行条件
+
+本技能不是独立应用，出图能力由宿主 AI 助手提供：
+
+- **图像生成与编辑**：需宿主内置生图工具（生成、材质转绘、定向修字都靠它）；技能本身不调用任何模型或 API
+- **Python 脚本（可选）**：`build_prompts.py` 只负责把规则展开成提示词 JSON，`typeset_cover.py` 只负责给无字底图后排版（依赖 `requirements.txt`）
+- 无 Python 环境时技能仍可工作，脚本是稳定化手段而非硬依赖
+
 ## 安装
 
 **方式一：下载 Release 压缩包**
@@ -54,7 +62,7 @@ python scripts/build_prompts.py --source-image 原图.jpg --people-count 3 \
   --source-layout '人工看图得到的位置锚点'
 ```
 
-常用参数：`--no-text` 无字方案；`--subtitle ''` 关副标题；`--credit-text 'LIN'` 指定作者行；`--count` 仅在明确改数量时使用。
+常用参数：`--no-text` 无字方案（不添加文字、不为排版改变构图）；未指定作者时不渲染署名行；`--subtitle ''` 关副标题；`--credit-text 'LIN'` 指定作者行；`--count` 仅在明确改数量时使用。
 
 ## 预设（references/presets.json）
 
@@ -85,6 +93,20 @@ inkcut-cover-skill/
 │   └── typeset_cover.py            # 无字底图后排版
 └── requirements.txt                # Pillow, fonttools
 ```
+
+## 效果参考
+
+> **待补：真实成图对比组**（原图 → ①原图保留版 → ②构图优化版 → ③氛围变化版）。补图后放此处，比文字描述更直观。
+
+当前可参考技能内置的风格案例：
+
+| 01 晴天·五人 | 02 星夜·三人 | 03 紫粉落日·单人 |
+|:---:|:---:|:---:|
+| ![](assets/references/01-blue-sky-five.jpg) | ![](assets/references/02-night-alley-three.jpg) | ![](assets/references/03-pink-sunset-alone.jpg) |
+
+| 04 橙金厚云 | 05 晴天·三人 |
+|:---:|:---:|
+| ![](assets/references/04-amber-sky-rear-view.jpg) | ![](assets/references/05-blue-sky-three.jpg) |
 
 ## License
 

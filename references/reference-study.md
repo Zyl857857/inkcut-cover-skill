@@ -42,7 +42,7 @@
 | 观察 | 落实 | 应避免 |
 |---|---|---|
 | 黑白近景与彩色远景断层清楚 | separate grayscale ink-paper foreground from colorful painted distance | 全彩动漫画加滤镜 |
-| 大天空与小人物 | retreat camera; small figures low in frame | 大头像主角海报 |
+| 大天空与小人物（仅文字新构图） | new compositions: small figures low in frame; source-faithful keeps the original figure scale and never retreats the camera | 大头像主角海报；保留版为凑小人物而后撤镜头或缩人 |
 | 实体暖白纸边 | matte cream cut-paper silhouette borders | 白光、霓虹 |
 | 小字号和留白 | centered compact title group | 满屏大字、营销副文案 |
 | 冷暖来自天空 | neutral warm-gray ink layer | 夕阳将人物染成彩色 |

@@ -9,9 +9,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def typography(args, preserve=False):
     if args.no_text:
-        return ('No typography or lettering anywhere. Do not create placeholder words. '
-                + ('Preserve the existing scene layout; do not clear or move objects for text.'
-                   if preserve else 'Reserve calm empty sky for later typesetting.'))
+        return ('No typography, lettering or placeholder words anywhere. Do not add text, do not '
+                'reserve sky or clear space for it, and do not change the composition for '
+                'typesetting; keep the scene exactly as specified, sky or no sky.'
+                + (' Preserve the existing scene layout; do not clear or move objects for text.'
+                   if preserve else ''))
     position = ('Use existing clear background space, preferably upper center, without moving '
                 'any source subject or major object.' if preserve else
                 'Place a small centered group within the upper 9–25 percent of the canvas.')
@@ -95,9 +97,11 @@ def build(args):
     )
     figure_framing = ('No human silhouettes or figures anywhere.' if count == 0 else
         'Keep the source figures recognizable, with their original facing direction unless the user '
-        'explicitly permits a pose change; do not automatically turn them into back views. Modest '
-        'scale and spacing adjustments toward 15–35 percent image height are allowed for this '
-        'recomposed edition, with bodies naturally supported by the ground.' if source else
+        'explicitly permits a pose change; do not automatically turn them into back views. Keep each '
+        "figure's original scale as the baseline; never retreat the camera or shrink originally "
+        'large subjects merely to reach 15–35 percent image height. Only modest refinements of '
+        'scale, spacing and depth are allowed for this recomposed edition, with bodies naturally '
+        'supported by the ground.' if source else
         'Keep people calm, mostly seen from behind or in three-quarter rear view, looking into '
         'the distance. Each visible figure silhouette is approximately 15–35 percent of image '
         'height, small in the environment, in the lower half and naturally grounded.'
@@ -176,7 +180,7 @@ def main():
     parser.add_argument('--preset', choices=['A', 'B', 'C', 'D'], default='B')
     parser.add_argument('--title', default='The Last Wall')
     parser.add_argument('--subtitle', default='Original Soundtrack')
-    parser.add_argument('--author', default='YOUR NAME')
+    parser.add_argument('--author', help='Author for the credit line; omit to render no credit line at all.')
     parser.add_argument('--credit-text', help='Optional exact full credit line, e.g. LIN, overriding Music by + author.')
     parser.add_argument('--people')
     parser.add_argument('--people-count', type=int, help='Manually verified person count, including zero; no automatic detection.')

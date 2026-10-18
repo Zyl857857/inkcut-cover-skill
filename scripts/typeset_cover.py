@@ -34,7 +34,7 @@ def main():
                         help='Optional separate title font, e.g. Chinese Ming/Song for a Chinese title.')
     parser.add_argument('--title', default='The Last Wall')
     parser.add_argument('--subtitle', default='Original Soundtrack')
-    parser.add_argument('--author', default='YOUR NAME')
+    parser.add_argument('--author', help='Author for the credit line; omit to render no credit line at all.')
     parser.add_argument('--credit-text', help='Exact full credit line; overrides the Music by + author convention.')
     parser.add_argument('--top', type=float, default=0.105)
     args = parser.parse_args()
