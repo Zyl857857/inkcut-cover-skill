@@ -1,0 +1,21 @@
+Use case: stylized-concept / style-transfer as appropriate.
+Asset type: ONE complete paper-cutout ink OST cover, not a grid or mockup.
+
+{reference_instruction}
+
+Subject: {people}. {count_instruction} Keep subject roles, clothes and scene consistent with the request. {figure_framing}
+
+Material: all people, including faces, hair, clothing and equipment, plus existing nearby ground and architecture are black-and-white or neutral warm-paper-gray manga ink on subtly warm off-white paper. Use fine hatching, crosshatching, restrained screentone and fine paper grain. Do not colorize this foreground with the background light. With no people, transform existing foreground objects only.
+
+Foreground scene: {scene}. Draw ONLY requested or existing near structures and ground; do not automatically add walls, cobblestones, ruins, grass or other absent objects. Give each visible foreground paper layer a continuous opaque matte cream margin around its outer silhouette, about 0.8–1.5% of the canvas short edge, plus a very thin contact shadow. Trace outer silhouettes, not every brick or hatch. Solid paper edges, never neon halos; natural overlaps and grounded bodies.
+
+Colored distance: {backdrop}. Time and light: {time}. Use refined realistic painterly animation-background / oil-painted texture, natural gradients and atmospheric depth with appropriate clouds, water or mist. Keep it fully colored and separate from neutral ink foreground. Never add a sky, cloud field, city or mountain absent from the supplied scene merely to satisfy the style.
+
+{source_text_policy}
+{typography}
+
+Variant: {variation}. Respect all user layout locks, theme, subject count and exact words. Aspect ratio {ratio}; do not force a separate source-faithful edition to match this framing.
+
+Quiet, cinematic, epic, watchful, hopeful. {character_policy} Full opaque background.
+
+Avoid: full-color foreground figures, absent paper edges, colored glows, plastic stickers, 3D, flat vector art, photo-real people, chibi, oversized poster portraits, clutter, huge lettering, marketing copy, new watermarks, misspelled text, {subject_avoid}. Never import an author credit from style examples or invent a musician's name. One complete cover only.

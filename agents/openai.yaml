@@ -1,0 +1,13 @@
+interface:
+  display_name: "inkcut-cover-skill"
+  short_description: "剪纸墨线 OST 封面：每次三张，保留原图、优化构图与变化氛围"
+  default_prompt: "请用 $inkcut-cover-skill 生成3张剪纸墨线 OST 封面；第1张保留原图人物与大物体的布局，其他两张优化构图和氛围。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  allow_implicit_invocation: true

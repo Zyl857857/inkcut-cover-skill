@@ -1,0 +1,34 @@
+{
+  "A": {
+    "label": "夜·童年",
+    "time": "a deep indigo night sky scattered with fine stars, faint cool clouds and tiny warm city lights beneath a distant immense wall",
+    "scene": "a quiet stone-paved alley framed by tall old ink-drawn stone buildings on both sides; a distant immense wall remains part of the colored atmospheric background",
+    "people": "exactly three original children sitting on the cobblestones, seen from behind, in simple unmarked clothing, quietly looking toward the far wall",
+    "emotion": "longing, childhood promises and quiet companionship",
+    "reference": "02-night-alley-three.jpg"
+  },
+  "B": {
+    "label": "黄昏·孤独",
+    "time": "a luminous purple-pink sunset with a low warm sun, subtle radiant beams and hazy distant hills",
+    "scene": "a ruined high stone terrace with broken walls, scattered masonry and a quiet distant landscape",
+    "people": "exactly one original young cloaked traveler standing on the broken stone terrace, back view, cloak gently lifted by wind, calm and still",
+    "emotion": "farewell, solitude and hope",
+    "reference": "03-pink-sunset-alone.jpg"
+  },
+  "C": {
+    "label": "晴天·羁绊",
+    "time": "a clear luminous blue daytime sky with large dimensional white cumulus clouds, cool distant hills and an atmospheric walled city",
+    "scene": "the top of a broad stone wall or rampart, with a colored city and mountains in the far distance",
+    "people": "exactly five original companions in matching generic unmarked uniforms, standing in a calm row with their backs to the viewer, no logos or distinctive franchise equipment",
+    "emotion": "bonds, departure, shared duty and protection",
+    "reference": "01-blue-sky-five.jpg"
+  },
+  "D": {
+    "label": "黎明·终章",
+    "time": "a pale lavender and soft pink dawn becoming light gold near the open sea horizon, a restrained brightening sky and distant mist",
+    "scene": "a quiet coastal cliff, a simple ink-drawn rock ledge and sparse grass in the foreground, expansive colored sea and horizon beyond",
+    "people": "exactly one original traveler sitting quietly on a coastal rock ledge, seen from behind, looking toward the far sea horizon, simple cloak and clothing",
+    "emotion": "peace after an ending, acceptance and a new beginning",
+    "reference": "03-pink-sunset-alone.jpg"
+  }
+}

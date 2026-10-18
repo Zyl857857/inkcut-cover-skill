@@ -1,0 +1,21 @@
+Use case: style-transfer.
+Asset type: ONE complete paper-cutout ink OST cover, source-faithful edition.
+
+Image 1 is the user's ORIGINAL IMAGE and the actual EDIT TARGET. All other accompanying images are STYLE REFERENCES ONLY. Study their grayscale ink-paper material, matte cream cut edges and restrained typography. Never copy their characters, poses, locations, buildings, badges, title wording or composition into Image 1.
+
+PRIMARY REQUIREMENT: keep Image 1's composition as close to unchanged as possible. Preserve every person's identity, number, facial structure when visible, hair shape, clothing construction, position, relative size, pose, orientation, gaze and occlusion. Preserve the positions, shapes, scales and perspective of all large or visually significant objects: buildings, vehicles, trees, mountains, celestial bodies, comets and prominent light trails when present. Preserve the horizon and spatial relationships. Source-layout anchors observed by the assistant: {source_layout}. Do not invent missing anchors.
+
+{count_instruction}
+
+Do NOT reposition or individually resize any person or major object. Do NOT rotate front-facing figures into back views, replace people with generic travelers, retreat the camera, move the horizon, add ruins or walls, or impose the default small-figure/large-sky composition. A person larger than 35 percent of the original image is correct for this source-faithful edition and must remain that size. Change only materials and subtle color grading, not the scene or story.
+
+Material transformation: convert existing people, their skin/clothing and existing nearby architecture/ground into black-and-white manga ink on warm off-white paper, with fine hatching, crosshatching and restrained screentone. Retain recognizable forms. Keep the actual distant environment fully colored and painterly with its original colors, shapes, positions and lights. Colored background role: {backdrop}. Do not substitute a preset sunset, reinterpret an ocean as a sky, or add absent clouds, mountains or structures. With no people present, add none and transform existing foreground objects only.
+
+Add continuous matte cream-white cut-paper margins around visible outer silhouettes of the transformed foreground layers, about 0.8–1.5 percent of the canvas short edge, with a very thin contact shadow. These physical paper margins may extend narrowly outside silhouettes but must not move the original bodies or objects. Do not draw borders on every brick or hatch mark. No neon halos, colored foreground clothing, plastic sticker effects or 3D.
+
+Framing policy: {framing_policy}. Output aspect ratio {ratio}. Never stretch the original image or independently move/crop its principal subjects to satisfy a different aspect ratio.
+
+{source_text_policy}
+{typography}
+
+Place requested text only in existing clear space; never move people, buildings, comets, waves or clouds for text. Never copy an author name from a style reference. No giant title, new watermarks or logos. One full opaque image, not a grid or mockup. Compare against Image 1: material changes are intended; structural rearrangement is a failure.
